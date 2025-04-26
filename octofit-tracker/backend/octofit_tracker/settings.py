@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "tracker",
-    "corsheaders",
+    "djongo",  # For MongoDB support    
+    "corsheaders",  
 ]
 
 MIDDLEWARE = [
@@ -81,7 +82,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
         'HOST': 'localhost',
-        'PORT': 27017,
+        'PORT': 27017,       
     }
 }
 
