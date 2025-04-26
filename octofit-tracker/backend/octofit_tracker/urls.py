@@ -28,10 +28,9 @@ router.register(r'activities', ActivityViewSet)
 router.register(r'leaderboard', LeaderboardViewSet)
 router.register(r'workouts', WorkoutViewSet)
 
-urlpatterns = [
-    path("admin/", admin.site.urls),
-] + router.urls
+urlpatterns = router.urls
 
+# Add API root
 @api_view(['GET'])
 def api_root(request, format=None):
     return Response({

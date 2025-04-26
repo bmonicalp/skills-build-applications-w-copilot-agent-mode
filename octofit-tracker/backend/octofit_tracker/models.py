@@ -1,4 +1,3 @@
-# models.py
 from django.db import models
 
 # Define models for users, teams, activity, leaderboard, and workouts
