@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-1-ow$tqy3tomr%2^+@l2m8v=47$9wa2us-^a_y$t5n^8mu)n#n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'glowing-funicular-7jj9667jv7j2xjvx-8000.app.github.dev']
 
 
 # Application definition
